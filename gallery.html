@@ -88,78 +88,120 @@
 					<div class="col xl4 l4 m6">
 						<div class="services-wrapper single-services mb-60">
 							<div class="services-img">
-								<a href="#"><img src="images/21.jpg" alt=""></a>
+								<a href="#"><img src="images/21.jpg" alt="" onclick="openModal();currentSlide(1)" class="hover-shadow cursor"></a>
 							</div>
 							<div class="services-text center">
 								<h3><a href="#">Organic Vegetables</a></h3>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt ut labore et dolore magna aliqua.</p>
-								<a href="#">Read More <i class="dripicons-arrow-thin-right"></i></a>
+							
 							</div>
 						</div>
 					</div>
 					<div class="col xl4 l4 m6">
 						<div class="services-wrapper single-services mb-60">
 							<div class="services-img">
-								<a href="#"><img src="images/22.jpg" alt=""></a>
+								<a href="#"><img src="images/22.jpg" alt="" onclick="openModal();currentSlide(2)" class="hover-shadow cursor"></a>
 							</div>
 							<div class="services-text center">
 								<h3><a href="#">Organic Vegetables</a></h3>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt ut labore et dolore magna aliqua.</p>
-								<a href="#">Read More <i class="dripicons-arrow-thin-right"></i></a>
+								
 							</div>
 						</div>
 					</div>
 					<div class="col xl4 l4 m6">
 						<div class="services-wrapper single-services mb-60">
 							<div class="services-img">
-								<a href="#"><img src="images/23.jpg" alt=""></a>
+								<a href="#"><img src="images/23.jpg" alt="" onclick="openModal();currentSlide(3)" class="hover-shadow cursor"></a>
 							</div>
 							<div class="services-text center">
 								<h3><a href="#">Organic Vegetables</a></h3>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt ut labore et dolore magna aliqua.</p>
-								<a href="#">Read More <i class="dripicons-arrow-thin-right"></i></a>
+								
 							</div>
 						</div>
 					</div>
 					<div class="col xl4 l4 m6">
 						<div class="services-wrapper single-services mb-60">
 							<div class="services-img">
-								<a href="#"><img src="images/26.jpg" alt=""></a>
+								<a href="#"><img src="images/26.jpg" alt="" onclick="openModal();currentSlide(4)" class="hover-shadow cursor"></a>
 							</div>
 							<div class="services-text center">
 								<h3><a href="#">Organic Vegetables</a></h3>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt ut labore et dolore magna aliqua.</p>
-								<a href="#">Read More <i class="dripicons-arrow-thin-right"></i></a>
+								
 							</div>
 						</div>
 					</div>
 					<div class="col xl4 l4 m6">
 						<div class="services-wrapper single-services mb-60">
 							<div class="services-img">
-								<a href="#"><img src="images/24.jpg" alt=""></a>
+								<a href="#"><img src="images/24.jpg" alt="" onclick="openModal();currentSlide(5)" class="hover-shadow cursor"></a>
 							</div>
 							<div class="services-text center">
 								<h3><a href="#">Organic Vegetables</a></h3>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt ut labore et dolore magna aliqua.</p>
-								<a href="#">Read More <i class="dripicons-arrow-thin-right"></i></a>
+								
 							</div>
 						</div>
 					</div>
 					<div class="col xl4 l4 m6">
 						<div class="services-wrapper single-services mb-60">
 							<div class="services-img">
-								<a href="#"><img src="images/25.jpg" alt=""></a>
+								<a href="#"><img src="images/25.jpg" alt="" onclick="openModal();currentSlide(6)" class="hover-shadow cursor"></a>
 							</div>
 							<div class="services-text center">
 								<h3><a href="#">Organic Vegetables</a></h3>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt ut labore et dolore magna aliqua.</p>
-								<a href="#">Read More <i class="dripicons-arrow-thin-right"></i></a>
+								
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+    <div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+      <img src="images/21.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+      <img src="images/22.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+      <img src="images/23.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+      <img src="images/26.jpg" style="width:100%">
+    </div>
+      
+       <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <img src="images/24.jpg" style="width:100%">
+    </div>
+      
+       <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="images/25.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+        </div>
+    </div>
     
 </section>
     
@@ -200,7 +242,7 @@
 							<div class="services-text center">
 								<h3><a href="#">Organic Vegetables</a></h3>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt ut labore et dolore magna aliqua.</p>
-								<a href="#">Read More <i class="dripicons-arrow-thin-right"></i></a>
+							
 							</div>
 						</div>
 					</div>
@@ -212,7 +254,7 @@
 							<div class="services-text center">
 								<h3><a href="#">Organic Vegetables</a></h3>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt ut labore et dolore magna aliqua.</p>
-								<a href="#">Read More <i class="dripicons-arrow-thin-right"></i></a>
+								
 							</div>
 						</div>
 					</div>
@@ -224,7 +266,7 @@
 							<div class="services-text center">
 								<h3><a href="#">Organic Vegetables</a></h3>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt ut labore et dolore magna aliqua.</p>
-								<a href="#">Read More <i class="dripicons-arrow-thin-right"></i></a>
+								
 							</div>
 						</div>
 					</div>
@@ -236,7 +278,7 @@
 							<div class="services-text center">
 								<h3><a href="#">Organic Vegetables</a></h3>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt ut labore et dolore magna aliqua.</p>
-								<a href="#">Read More <i class="dripicons-arrow-thin-right"></i></a>
+								
 							</div>
 						</div>
 					</div>
@@ -248,7 +290,7 @@
 							<div class="services-text center">
 								<h3><a href="#">Organic Vegetables</a></h3>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt ut labore et dolore magna aliqua.</p>
-								<a href="#">Read More <i class="dripicons-arrow-thin-right"></i></a>
+								
 							</div>
 						</div>
 					</div>
@@ -260,7 +302,7 @@
 							<div class="services-text center">
 								<h3><a href="#">Organic Vegetables</a></h3>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt ut labore et dolore magna aliqua.</p>
-								<a href="#">Read More <i class="dripicons-arrow-thin-right"></i></a>
+								
 							</div>
 						</div>
 					</div>
@@ -268,7 +310,6 @@
 			</div>
 		</div>
  </section>
- 
   <!-- brand-area-start -->
 		<div class="brand-area">
 			<div class="container">
@@ -361,7 +402,7 @@
 			<div class="container">
 				<div class="footer-bg pb-50">
 					<div class="row">
-						<div class="col xl3 l3 m6">
+						<div class="col xl6 l6 m6">
 							<div class="footer-wrapper mb-30">
 								<div class="footer-logo">
 									<a href="#!" class="brand-logo">Logo</a>
@@ -378,23 +419,8 @@
 							   </div>
 							</div>
 						</div>
-						<div class="col xl3 l3 m6">
-							<div class="footer-wrapper pl-45 mb-30">
-								<div class="footer-title">
-									<h4>Customer Support</h4>
-									<img src="images/f.png" alt="" />
-								</div>
-								<ul class="fotter-menu">
-									<li><a href="#">Help and Ordering</a></li>
-									<li><a href="#">Privacy Policy</a></li>
-									<li><a href="#">Return & Cancellation</a></li>
-									<li><a href="#">Delevery Schedule</a></li>
-									<li><a href="#">Get a Call</a></li>
-									<li><a href="#">Online Enquiry</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col xl3 l3 m6">
+				
+						<div class="col xl6 l6 m6 right-text">
 							<div class="footer-wrapper pl-45 mb-30">
 								<div class="footer-title">
 									<h4>Contact Info</h4>
@@ -407,30 +433,14 @@
 								</ul>
 							</div>
 						</div>
-						<div class="col xl3 l3 m6">
-							<div class="footer-wrapper pl-40 mb-30">
-								<div class="footer-title">
-									<h4>Newsletters</h4>
-									<img src="images/f.png" alt="" />
-								</div>
-								<div class="footer-content">
-									<p>Enter your email and we’ll send you latest information plans.</p>
-								</div>
-								<div class="subscribes-form">
-									<form action="#">
-										<input placeholder="Enter your emaill " type="email">
-										<button class="btn">Subscribe</button>
-									</form>
-								</div>
-							</div>
-						</div>
+		
 					</div>
 				</div>
 				<div class="footer-bottom-area">
 					<div class="row">
 						<div class="col xl12">
 							<div class="copyright center">
-								<p>Copyright <i class="far fa-copyright"></i> 2019 <a href="#">BDevs</a>. All Rights Reserved</p>
+								<p>Copyright <i class="far fa-copyright"></i> 2019 <a href="#">Palnesto</a>. All Rights Reserved</p>
 							</div>
 						</div>
 					</div>
