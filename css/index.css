@@ -23,7 +23,8 @@ h1, h2, h3, h4, h5, h6 {
 .nav2{
  background-color: transparent;
 color: black!important;
-box-shadow: none!important;    
+box-shadow: none!important;
+margin-bottom: 10px;    
 }
 .nav2 ul a{
   color: black!important;  
