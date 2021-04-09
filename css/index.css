@@ -70,7 +70,7 @@ margin-bottom: 10px;
     top: 15px;
 }
 .about-text span {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #6a6a6a;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -577,7 +577,7 @@ margin-bottom: 10px;
     padding-right: 33px;
 }
 p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: normal;
     line-height: 30px;
     color: #7b8e9d;
@@ -758,12 +758,12 @@ height: 262px;
 .video-icon a {
 	color: #fab522;
 	font-size: 24px;
-	height: 130px;
-	width: 130px;
+	height: 80px;
+	width: 80px;
 	background: #fff;
 	display: inline-block;
 	text-align: center;
-	line-height: 103px;
+	line-height: 52px;
 	border-radius: 50%;
 	transition: .3s;
 	border: 15px solid #cdd1c4;
